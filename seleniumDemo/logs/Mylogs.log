@@ -1,0 +1,4 @@
+[INFO ] 2022-08-10 03:39:14.950 [main] BookingListTest - Login success
+[ERROR] 2022-08-10 03:39:14.951 [main] BookingListTest - this is error
+[WARN ] 2022-08-10 03:39:14.951 [main] BookingListTest - this is a warning
+[INFO ] 2022-08-10 03:39:30.163 [main] BookingListTest - Booking page is opened successfully
