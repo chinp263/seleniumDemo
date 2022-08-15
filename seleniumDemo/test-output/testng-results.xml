@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-10T03:38:55 ICT" name="Default suite" finished-at="2022-08-10T03:39:39 ICT" duration-ms="43937">
+  <suite started-at="2022-08-13T23:54:58 ICT" name="Default suite" finished-at="2022-08-13T23:55:37 ICT" duration-ms="38555">
     <groups>
     </groups>
-    <test started-at="2022-08-10T03:38:55 ICT" name="Default test" finished-at="2022-08-10T03:39:39 ICT" duration-ms="43937">
-      <class name="seleniumDemo.BookingListTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:seleniumDemo.BookingListTest@5536379e]" started-at="2022-08-10T03:38:55 ICT" name="SetUp" finished-at="2022-08-10T03:39:03 ICT" duration-ms="7288" status="PASS">
+    <test started-at="2022-08-13T23:54:58 ICT" name="Default test" finished-at="2022-08-13T23:55:37 ICT" duration-ms="38555">
+      <class name="seleniumDemo.LoginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:seleniumDemo.LoginTest@7e7be63f]" started-at="2022-08-13T23:54:59 ICT" name="SetUp" finished-at="2022-08-13T23:55:08 ICT" duration-ms="9124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="BookingDateFilter()[pri:0, instance:seleniumDemo.BookingListTest@5536379e]" started-at="2022-08-10T03:39:03 ICT" name="BookingDateFilter" finished-at="2022-08-10T03:39:39 ICT" duration-ms="36582" status="PASS">
+        <test-method signature="validLogin(java.lang.String)[pri:0, instance:seleniumDemo.LoginTest@7e7be63f]" started-at="2022-08-13T23:55:08 ICT" name="validLogin" data-provider="dp" finished-at="2022-08-13T23:55:17 ICT" duration-ms="9551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alicealice@yopmail.com,Abc@123456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BookingDateFilter -->
-      </class> <!-- seleniumDemo.BookingListTest -->
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:seleniumDemo.LoginTest@7e7be63f]" started-at="2022-08-13T23:55:17 ICT" name="SetUp" finished-at="2022-08-13T23:55:27 ICT" duration-ms="10028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="validLogin(java.lang.String)[pri:0, instance:seleniumDemo.LoginTest@7e7be63f]" started-at="2022-08-13T23:55:27 ICT" name="validLogin" data-provider="dp" finished-at="2022-08-13T23:55:37 ICT" duration-ms="9757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linhvu@yopmail.com,Abc@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- seleniumDemo.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

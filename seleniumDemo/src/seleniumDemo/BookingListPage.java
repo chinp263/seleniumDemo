@@ -5,18 +5,14 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.devtools.DevTools;
 import org.testng.Assert;
 
 public class BookingListPage {
 	WebDriver driver;
-	DevTools devtools;
 	
 	By dateFilter = By.xpath("//b[contains(text(), 'Date')]");
 	By selectDate = By.xpath("//div[contains(text(), 'Today')]");
@@ -32,6 +28,8 @@ public class BookingListPage {
 	public BookingListPage(WebDriver driver) {
 		this.driver = driver;
 	}
+	
+
 	
 	public void openBookingPage() {
 		WebElement menu = driver.findElement(By.className("anticon-menu-unfold"));

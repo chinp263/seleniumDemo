@@ -12,6 +12,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="lib" path="/Users/chinguyen/Downloads/selenium-java-4/selenium-api-4.2.2-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/chinguyen/Downloads/selenium-java-4/selenium-api-4.2.2.jar"/>
 	<classpathentry kind="lib" path="/Users/chinguyen/Downloads/selenium-java-4/selenium-chrome-driver-4.2.2-sources.jar"/>
@@ -101,5 +102,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/chinguyen/Downloads/junit-jupiter-5.9.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

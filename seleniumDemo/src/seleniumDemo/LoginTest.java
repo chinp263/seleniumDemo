@@ -3,20 +3,21 @@ package seleniumDemo;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import demotester.SignInPage;
-
 public class LoginTest extends BaseTest {
-	@Test
-	public void validLogin() {
+	@Test(dataProvider="dp")
+	public void validLogin(String data) {
 		LoginPage loginpage = new LoginPage(driver);
-		loginpage.verifyLogin("linhvu@yopmail.com","Abc@123456");
+		String login[] = data.split(",");
+		loginpage.verifyLogin(login[0], login[1]);
 		Boolean getURL = loginpage.driver.getCurrentUrl().contains(urlDashboard);
-		Assert.assertTrue(true);
+		Assert.assertTrue(true);	
 	};
+	
+
+	}
 //	@Test
 //	public void loginBlank() {
 //		verifyLogin("","");
 //		WebElement errorMessage = driver.findElement(By.className("ant-form-explain"));
 //		Assert.assertTrue(errorMessage.isDisplayed());
 //	};
-}
